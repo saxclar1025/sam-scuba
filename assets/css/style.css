@@ -1,0 +1,35 @@
+/*font-family: 'Lato', sans-serif;
+font-family: 'Alegreya', serif;*/
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-family: 'Alegreya', serif;
+}
+
+.navbar-brand{
+	background: url("../images/lionfish.png");
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.navbar-brand h1{
+	color: #24c;
+	margin: 0;
+	font-weight: bold;
+	text-shadow: 	1px 1px 0 #ffb,
+					1px -1px 0 #ffb,
+					-1px 1px 0 #ffb,
+					-1px -1px 0 #ffb;
+}
+
+header{
+	margin-bottom: 10px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	padding: 20px;
+}
